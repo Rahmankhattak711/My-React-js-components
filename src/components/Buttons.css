@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+  margin-top: 30px;
+  height: 58px;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.buttons button {
+  margin: 10px 0px;
+  font-weight: 400;
+  padding: 15px 20px;
+}
+
+.container {
+  padding: 10px 10px 10px 200px;
+  width: 100%;
+}
+
+
+.active-button {
+  border-bottom: 3px solid #000000;
+}
+
+/* Assuming you're applying these styles to an element with a class of "my-element" */
+
+.my-element {
+  width: 100%;
+  padding: 0.75rem 1rem; /* You might need to adjust these values based on your design */
+  border: 1px solid #ccc; /* You can replace #ccc with the desired border color */
+  border-radius: 0.25rem; /* You can adjust the border-radius value as needed */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
+  appearance: none;
+  color: #333; /* You can replace #333 with the desired text color */
+  line-height: 1.5; /* You can adjust the line-height as needed */
+  outline: none; /* Removes the outline when the element is focused */
+}
+
+.my-element:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Adjust the focus shadow as needed */
+}
+
+/* Assuming you want to apply these styles to an element with a class of "my-text" */
+
+.my-text {
+  display: block;
+  color: #333; /* You can replace #333 with the desired text color */
+  font-size: 0.875rem; /* You can adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* You can adjust the margin as needed */
+}
